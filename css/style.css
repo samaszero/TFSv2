@@ -60,8 +60,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Use only for images on navbar */
 .img-nav {
 	max-height: 40px;
-	padding-top: 6px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	border: 0px;
+	}
+
+.container-nav {
+	max-height: 51px;
+	display: inline-block;
 }
 
 animated.fadeInRight.start {
