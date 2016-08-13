@@ -618,4 +618,8 @@ animated.fadeInLeft.start {
 	opacity: 1;
 }
 
+.icon-github, .icon-twitter, .icon-youtube {
+		height: 30px;
+		padding: 1px 1px 1px 1px;
+}
 /*# sourceMappingURL=style.css.map */
