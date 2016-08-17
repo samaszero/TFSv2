@@ -638,8 +638,10 @@ background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
 
 	color: #fff;
-	font-size: 31px;
+	font-size: 29px;
 	padding: 1px 10px 1px;
+	line-height: 1.3;
+	white-space: nowrap;
 	}
 
 .ud {
@@ -655,8 +657,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 }
 body .policy .fh5co-section {
 	color: #222;
-	border-style: solid;
-	border-top-width: 10px;
+	border-style: ridge;
+	border-top-width: 8px;
 	border-color: #cb0000;
 	border-bottom-width: 0;
 	border-left-width: 0;
