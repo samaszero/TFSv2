@@ -11,7 +11,7 @@ body {
   font-weight: bolder;
   font-size: 20px;
   line-height: 1.7;
-  color: #800000;
+  color: #cb0000;
   background: #fff;
   height: 100%;
   position: relative;
@@ -42,7 +42,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Roboto Slab", Roboto Slab, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   margin: 0 0 30px 0;
 }
 
@@ -239,6 +239,14 @@ animated.fadeInLeft.start {
     padding: 4em 0;
   }
 }
+.fh5co-hero .fh5co-intro h2 {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+.strong {
+	font-weight: 800;
+		}
+
 .fh5co-hero .fh5co-intro h1, .fh5co-parallax .fh5co-intro h1 {
 	color: #cb0000;
 	font-size: 70px;
@@ -621,5 +629,24 @@ animated.fadeInLeft.start {
 .icon-github, .icon-twitter, .icon-youtube {
 		height: 30px;
 		padding: 1px 1px 1px 1px;
+}
+.hghlgt {
+	background-color: #222;
+	border-color: #090909;
+	border: 2px;
+	border-style: dashed;
+	color: #f0ad4e;
+	padding: 7px;
+	}
+
+.ud {
+	text-decoration: underline;
+
+}
+.i {
+	font-style: italic;
+}
+.blk {
+	color: #000;
 }
 /*# sourceMappingURL=style.css.map */
