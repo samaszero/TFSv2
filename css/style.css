@@ -631,12 +631,15 @@ animated.fadeInLeft.start {
 		padding: 1px 1px 1px 1px;
 }
 .hghlgt {
-	background-color: #222;
-	border-color: #090909;
-	border: 2px;
-	border-style: dashed;
-	color: #f0ad4e;
-	padding: 7px;
+	background: rgb(169,3,41);
+background: -moz-linear-gradient(top,  rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%);
+background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
+
+	color: #fff;
+	font-size: 31px;
+	padding: 1px 10px 1px;
 	}
 
 .ud {
@@ -647,6 +650,17 @@ animated.fadeInLeft.start {
 	font-style: italic;
 }
 .blk {
-	color: #000;
+	color: #cb0000;
+	font-size: 28px;
+}
+body .policy .fh5co-section {
+	color: #222;
+	border-style: solid;
+	border-top-width: 10px;
+	border-color: #cb0000;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+
 }
 /*# sourceMappingURL=style.css.map */
