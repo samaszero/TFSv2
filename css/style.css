@@ -676,8 +676,13 @@ body .policy .fh5co-section {
 	border-bottom-style: none;
 	border-bottom-width: 0px;
 }
-
-
+.dropdown-menu {
+	background-color: rgba(203, 0, 0, 0.60);
+	color: #fff;
+}
+.dropdown-menu > li > a {
+	color: #fff;
+}
 
 
 /*# sourceMappingURL=style.css.map */
