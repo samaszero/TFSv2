@@ -665,13 +665,16 @@ body .policy .fh5co-section {
 	border-right-width: 0;
 
 }
+.navbar-inverse {
+	background-color: rbga(16,16,16,0);
+}
 .navbar-fade {
 	background-color: rbga(16,16,16,1);
 	transition: background-color 2s ease 0s;
 	border-bottom-width: 0px;
 	}
 .navbar-fade.opaque {
-	background-color: rgba(255,255,255,0);
+	background-color: rgba(16,16,16,0);
 	transition: background-color 2s ease 0s;
 	border-bottom-style: none;
 	border-bottom-width: 0px;
